@@ -1,12 +1,12 @@
 [submodule "skupper-router"]
 	path = skupper-router
-	url = git@github.com:skupperproject/skupper-router.git
+	url = https://github.com/skupperproject/skupper-router.git
 [submodule "libunwind"]
 	path = libunwind
-	url = git@github.com:libunwind/libunwind.git
+	url = https://github.com/libunwind/libunwind.git
 [submodule "libwebsockets"]
 	path = libwebsockets
-	url = git@github.com:warmcat/libwebsockets.git
+	url = https://github.com/warmcat/libwebsockets.git
 [submodule "qpid-proton"]
 	path = qpid-proton
-	url = git@github.com:apache/qpid-proton.git
+	url = https://github.com/apache/qpid-proton.git
