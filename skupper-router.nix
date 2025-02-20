@@ -40,6 +40,7 @@ stdenv.mkDerivation rec {
     pythonEnv
   ];
   cmakeFlags = [
+    "-DVERSION=${version}"
   ];
   PKG_CONFIG_PATH = "${libnghttp2.dev}/lib/pkgconfig;${libunwind.dev}/lib/pkgconfig;${libwebsockets.dev}/lib/pkgconfig";
   src = fetchFromGitHub {
