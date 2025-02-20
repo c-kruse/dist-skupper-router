@@ -17,7 +17,7 @@
         in {
             qpid-proton = pkgs.callPackage ./qpid-proton.nix { };
             skupper-router = pkgs.callPackage ./skupper-router.nix {
-              inherit (self.packages.x86_64-linux) qpid-proton;
+              inherit (self.packages.${system}) qpid-proton;
             };
             default = self.packages.${system}.skupper-router;
         });
